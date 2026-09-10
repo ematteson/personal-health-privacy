@@ -2,4 +2,4 @@
 
 Static policy only. No OAuth callback, tracking, application code, credentials, health records or exports belong here.
 
-Publication is pending Eric's approval of a public contact email and confirmation of backup arrangements. Replace the clearly marked draft fields in `index.html` before publication. Publish the `main` branch root with GitHub Pages, enforce HTTPS and verify the page loads without authentication. Use the resulting URL in the WHOOP developer app.
+Eric approved eric.matteson@gmail.com for public display. Publication is pending GitHub authentication; backup arrangements still require review. Replace the clearly marked draft fields in `index.html` before publication. Publish the `main` branch root with GitHub Pages, enforce HTTPS and verify the page loads without authentication. Use the resulting URL in the WHOOP developer app.
