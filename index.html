@@ -6,16 +6,15 @@
 <title>Eric Personal Health — Privacy Policy</title>
 <style>body{max-width:46rem;margin:3rem auto;padding:0 1.25rem;font:17px/1.65 system-ui,sans-serif;color:#182329;background:#fafaf8}h1,h2{line-height:1.2}h2{margin-top:2rem}a{color:#075977}.draft{padding:1rem;border:2px solid #995b00}</style>
 <main>
-<p class="draft">DRAFT — not yet published. Backup review and deployment are pending.</p>
 <h1>Eric Personal Health Privacy Policy</h1>
-<p>Operator: Eric Matteson. Effective date: pending publication.</p>
+<p>Operator: Eric Matteson. Effective date: 2026-09-10.</p>
 <p>Contact: <a href="mailto:eric.matteson@gmail.com">eric.matteson@gmail.com</a></p>
 <h2>Purpose and data accessed</h2>
 <p>Eric Personal Health collects Eric's own WHOOP account data for private personal analysis. With explicit WHOOP authorization it reads physiological cycles, recovery, sleep and workouts. This includes strain, energy expenditure, heart rate variability, resting and activity heart rates, sleep stages and scores, activity details, WHOOP record and user identifiers, timestamps, time zone offsets and scoring status. It does not request basic profile or body-measurement access.</p>
 <p>The app polls approximately every 15 minutes while the Mac and owning user session are active, retrieves available history, and rechecks records for later scoring and corrections. It preserves source records and normalized values. Physiological cycles are kept separate from calendar days.</p>
 <h2>Local storage and security</h2>
 <p>Records, progress and managed JSON/CSV exports are stored in the owning user's Application Support folder on the Mac mini. The folder and files have restrictive permissions. OAuth client credentials and tokens are held in macOS Keychain, not in the source repositories. WHOOP API traffic uses HTTPS. The collector requires verified FileVault protection before storing health records and records a review of backup arrangements. Logs rotate and contain operational messages without health payloads, codes or tokens. No security measure guarantees absolute protection.</p>
-<p>At the initial inspection on September 10, 2026, FileVault was off, no Time Machine destinations were configured, and health-data collection was blocked. This policy does not claim that encryption has subsequently been enabled.</p>
+<p>FileVault was verified as enabled on September 10, 2026. No Time Machine backup destinations were configured at that check. Health-data collection remains blocked until the review of other backup and sync arrangements is complete.</p>
 <h2>Backups and retention</h2>
 <p>The application creates no backup service. Its runtime folder, including managed exports, is excluded from Time Machine. Other backup or sync destinations must be reviewed and must either exclude the data or have verified encryption before collection starts. This additional review is pending. Independently copied exports and any retained backup copies must be managed separately.</p>
 <p>The requested local archive retains collected records until Eric explicitly deletes them; records subsequently unavailable from WHOOP may be retained with a deletion marker. WHOOP's API terms restrict permanent copies and cache retention. Compatibility of long-term personal archiving with those restrictions is not established and requires clarification from WHOOP; no approval or exemption is claimed.</p>
